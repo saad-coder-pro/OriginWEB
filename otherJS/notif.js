@@ -4,7 +4,7 @@ function addNotification(imageUrl = "", name = "", content = "", dataApp = "") {
 
     // Tạo thông báo
     const item = document.createElement("div");
-    item.className = "notifItem liquid2";
+    item.className = "notifItem liquid";
 
     if (imageUrl)
         item.innerHTML = `
@@ -200,7 +200,7 @@ function addItemToStack(content = "", dataApp = "") {
     if (!containerLockNotif) return;
 
     const item = document.createElement("div");
-    item.className = "stackItem liquid2";
+    item.className = "stackItem liquid";
     item.innerHTML = content;
     containerLockNotif.prepend(item);
 
