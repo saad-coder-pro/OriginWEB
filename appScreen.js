@@ -665,7 +665,7 @@ function findSmartEmptySlot(x, y, rowEnd, colEnd) {
 
     return null;
 }
-async function applyIconBackgroundBySize(icon, sizeKey, setForPreviewIcon = false) {
+function applyIconBackgroundBySize(icon, sizeKey, setForPreviewIcon = false) {
     let imgKey = `image${sizeKey}`;
     let imgKey2 = `support${sizeKey}`;
 
